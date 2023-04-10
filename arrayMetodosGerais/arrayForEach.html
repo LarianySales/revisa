@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const pessoas = ['Bruno', 'Carlos', 'Leticia']
+        console.log(pessoas)
+
+        pessoas.forEach( function(nome, indice, array){
+console.log(`${indice + 1 }) ${nome}`)
+// console.log(array)
+        })//com chaves tem de explicar retorno
+
+        pessoas.forEach((nome )=> console.log (nome) )
+        //forErch - faz a listagem do array
+
+        const exibirNomes = (nome) => console.log(nome)//fazer uma função anonima para a variavel]
+
+        pessoas.forEach(exibirNomes)//lista os nomes que estão presentes na variavel
+    </script>
+</body>
+</html>
